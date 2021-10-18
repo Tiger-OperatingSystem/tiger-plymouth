@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Tiger v1
+Description=A theme based on Ubuntu Spinner Logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/tiger
+ScriptFile=/usr/share/plymouth/themes/tiger/tiger.script

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+update-alternatives --install /usr/share/plymouth/themes/default.plymouth \
+     default.plymouth /usr/share/plymouth/themes/tiger/tiger.plymouth 100
+
+update-alternatives --set default.plymouth /usr/share/plymouth/themes/tiger/tiger.plymouth
+
+update-initramfs -u

@@ -1,0 +1,13 @@
+Package: plymouth-theme-tiger-os
+Source: plymouth
+Version: 1.0
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 80
+Depends: libc6, libplymouth5, plymouth, lsb-release
+Provides: plymouth-theme
+Section: misc
+Priority: optional
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Description: Tema Plymouth
+
